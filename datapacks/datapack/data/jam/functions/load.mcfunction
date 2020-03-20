@@ -1,4 +1,5 @@
 function jam:gravity/load
+function jam:jetpack/load
 schedule function jam:second 1s replace
 
 scoreboard objectives add tmp dummy
