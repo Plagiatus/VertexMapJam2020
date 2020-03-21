@@ -1,0 +1,10 @@
+execute if score @s tmp matches 0 run setblock ~ ~ ~ dirt
+execute if score @s tmp matches 1 run setblock ~ ~ ~ coarse_dirt
+execute if score @s tmp matches 2 run setblock ~ ~ ~ stone
+execute if score @s tmp matches 3 run setblock ~ ~ ~ andesite
+execute if score @s tmp matches 4 run setblock ~ ~ ~ diorite
+execute if score @s tmp matches 5 run setblock ~ ~ ~ end_stone
+execute if score @s tmp matches 6 run setblock ~ ~ ~ iron_ore
+execute if score @s tmp matches 7 run setblock ~ ~ ~ gold_ore
+execute if score @s tmp matches 8 run setblock ~ ~ ~ diamond_ore
+execute if score @s tmp matches 9 run setblock ~ ~ ~ wet_sponge
