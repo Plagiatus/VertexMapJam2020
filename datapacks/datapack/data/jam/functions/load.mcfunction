@@ -2,10 +2,15 @@ function jam:gravity/load
 function jam:jetpack/load
 schedule function jam:second 1s replace
 
+# general
 scoreboard objectives add tmp dummy
 scoreboard objectives add const dummy
 scoreboard objectives add random dummy
 scoreboard objectives add counter dummy
+
+# Oxygen
+scoreboard objectives add oxygen dummy
+scoreboard objectives add oxygenMax dummy
 
 scoreboard players set $-1 const -1
 scoreboard players set $2 const 2
