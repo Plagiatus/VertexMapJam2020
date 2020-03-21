@@ -12,3 +12,4 @@ execute as @a[tag=!in_ship] run function jam:oxygen/decrease
 function jam:ship/machines/shared
 execute as @e[tag=hopper] at @s run function jam:ship/machines/all_hoppers
 execute as @e[tag=ship] at @s run function jam:ship/machines/tanks/update
+execute as @e[tag=ship] at @s positioned ~-1 ~ ~ run function jam:ship/machines/upgrader

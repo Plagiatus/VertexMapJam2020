@@ -1,0 +1,7 @@
+~-1 ~ ~ upgrade station
+//~ ~ ~-8 BOT maker -> stonecutter
+
+~ ~-4 ~ O2
+~-1 ~-3 ~ H2
+~2 ~-3 ~ Water
+~-3 ~-3 ~ Fuel
