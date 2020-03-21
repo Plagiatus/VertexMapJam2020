@@ -12,6 +12,11 @@ scoreboard objectives add counter dummy
 scoreboard objectives add oxygen dummy
 scoreboard objectives add oxygenMax dummy
 
+# Machines
+scoreboard objectives add timer dummy
+scoreboard objectives add duration dummy
+
+# constants
 scoreboard players set $-1 const -1
 scoreboard players set $2 const 2
 scoreboard players set $4 const 4
