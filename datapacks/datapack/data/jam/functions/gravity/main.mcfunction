@@ -11,7 +11,10 @@ effect give @s[scores={jumpTimer=10}] minecraft:levitation 1 255 true
 effect clear @s[scores={jumpTimer=20}] minecraft:levitation
 
 #Landing
-execute as @s[scores={jumpTimer=20..}] unless block ~ ~-0.1 ~ air run function jam:gravity/landed
+execute as @s[scores={jumpTimer=20..}] unless block ~0.2 ~-0.2 ~0.2 air run function jam:gravity/landed
+execute as @s[scores={jumpTimer=20..}] unless block ~0.2 ~-0.2 ~-0.2 air run function jam:gravity/landed
+execute as @s[scores={jumpTimer=20..}] unless block ~-0.2 ~-0.2 ~0.2 air run function jam:gravity/landed
+execute as @s[scores={jumpTimer=20..}] unless block ~-0.2 ~-0.2 ~-0.2 air run function jam:gravity/landed
 
 #--------------------------------Item handling--------------------------------#
 execute as @e[type=item] run function jam:gravity/item_gravity
