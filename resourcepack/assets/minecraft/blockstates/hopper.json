@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "facing=down": { "model": "block/ore_purifier" },
+        "facing=north": { "model": "block/water_extractor" },
+        "facing=south": { "model": "block/hopper", "y": 180 },
+        "facing=west": { "model": "block/fuel_maker", "y": 270 },
+        "facing=east": { "model": "block/food_maker", "y": 90 }
+    }
+}
