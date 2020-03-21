@@ -8,6 +8,7 @@ execute as @s[scores={jetpack_fuel=1..,jetpack_crouch=1..}] unless block ~-0.3 ~
 execute as @s[scores={jetpack_fuel=1..,jetpack_crouch=1..},tag=!crouchOnBlock] run function jam:jetpack/use
 
 function jam:jetpack/xpbar
+function jam:jetpack/levels
 
 tag @s remove crouchOnBlock
 scoreboard players set @s jetpack_crouch 0
