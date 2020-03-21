@@ -1,0 +1,6 @@
+{
+	"parent": "custom/ui/arrow1",
+	"textures": {
+		"layer0": "custom/ui/arrow5"
+	}
+}

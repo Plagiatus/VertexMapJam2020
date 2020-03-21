@@ -1,0 +1,13 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/structure_void"
+    },
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1 }, "model": "custom/ui/arrow1" },
+		{ "predicate": { "custom_model_data": 2 }, "model": "custom/ui/arrow2" },
+		{ "predicate": { "custom_model_data": 3 }, "model": "custom/ui/arrow3" },
+		{ "predicate": { "custom_model_data": 4 }, "model": "custom/ui/arrow4" },
+		{ "predicate": { "custom_model_data": 5 }, "model": "custom/ui/arrow5" }
+    ]
+}
