@@ -4,8 +4,9 @@ replaceitem block ~ ~ ~ container.3 minecraft:structure_void
 
 #check whether it's running
 tag @s add run
-execute if block ~ ~ ~ hopper{Items:[{Slot:4b,Count:64b}]} run tag @s remove run
-execute unless block ~ ~ ~ hopper{Items:[{Slot:0b}]} run tag @s remove run
+execute if entity @e[tag=ship,scores={fuel=..0},distance=..10] run tag @s remove run
+execute as @s[tag=run] if block ~ ~ ~ hopper{Items:[{Slot:4b,Count:64b}]} run tag @s remove run
+execute as @s[tag=run] unless block ~ ~ ~ hopper{Items:[{Slot:0b}]} run tag @s remove run
 
 # check for hopper specific circumstances
 execute as @e[tag=run,tag=water_ex] run function jam:ship/machines/check/water_ex
@@ -27,8 +28,10 @@ execute as @e[scores={timer=0},tag=run,tag=food] run function jam:ship/machines/
 execute as @e[scores={timer=0},tag=run,tag=ore] run function jam:ship/machines/result/ore
 execute as @e[scores={timer=0},tag=run,tag=fuel] run function jam:ship/machines/result/fuel
 
-# TODO: check for and then use energy, also check/use other things individually
+execute as @e[scores={timer=0},tag=run] run scoreboard players remove @e[tag=ship,distance=..10] fuel 1
 
 # reset timer
 tag @s[scores={timer=..0}] remove run
 execute as @s[tag=!run] run scoreboard players operation @s timer = @s duration
+
+#TODO: add messages about what's missing

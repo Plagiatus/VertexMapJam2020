@@ -4,4 +4,4 @@ execute if score @s tmp matches 0 unless block ~ ~ ~ hopper{Items:[{Slot:4b}]} r
 
 tag @s[scores={tmp=0}] remove run
 
-# TODO: check for water supply
+execute unless entity @e[tag=ship,distance=..10,scores={water=1..}] run tag @s remove run
