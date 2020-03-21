@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=bot] at @s run function jam:drones/idle
