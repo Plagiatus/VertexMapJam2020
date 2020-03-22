@@ -25,6 +25,6 @@
   "block.minecraft.polished_diorite": "Steel",
   "block.minecraft.wet_sponge": "Wet Soil",
   "block.minecraft.dirt": "Soil",
-  "block.minecraft.coarse_dirt": "Coarse Soil"
-
+  "block.minecraft.coarse_dirt": "Coarse Soil",
+  "container.stonecutter": "Bot Modulator"
 }
