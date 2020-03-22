@@ -1,3 +1,5 @@
+execute as @a[tag=!init] run function jam:init/player
+execute as @a[tag=loading] at @s run function jam:init/starting_area
 execute as @a[gamemode=!creative,gamemode=!spectator] at @s run function jam:gravity/main
 execute as @a[gamemode=!creative,gamemode=!spectator] at @s run function jam:jetpack/main
 execute as @a at @s as @e[type=armor_stand,tag=bot] if score @s botID = @p botID at @s run function jam:drones/main

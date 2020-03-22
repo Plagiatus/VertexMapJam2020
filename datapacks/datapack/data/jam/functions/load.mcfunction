@@ -44,3 +44,4 @@ scoreboard players set $60 const 60
 scoreboard players set $64 const 64
 scoreboard players set $160 const 160
 scoreboard players set $360 const 360
+scoreboard players set $32768 const 32768
