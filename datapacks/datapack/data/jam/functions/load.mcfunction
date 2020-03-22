@@ -1,5 +1,6 @@
 function jam:gravity/load
 function jam:jetpack/load
+function jam:drones/load
 schedule function jam:second 1s replace
 
 # general
