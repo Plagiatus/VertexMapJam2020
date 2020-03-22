@@ -1,7 +1,7 @@
 {
     "variants": {
         "facing=down":  { "model": "block/upgrade_station" },
-        "facing=up":    { "model": "block/pet_crafter" },
+        "facing=up":    { "model": "block/dropper" },
         "facing=north": { "model": "block/dropper" },
         "facing=south": { "model": "block/dropper", "y": 180 },
         "facing=west":  { "model": "block/dropper", "y": 270 },

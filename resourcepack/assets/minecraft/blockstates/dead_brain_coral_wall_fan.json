@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=east": { "model": "custom/lamp", "y": 90 },
+        "facing=south": { "model": "custom/lamp", "y": 180 },
+        "facing=west": { "model": "custom/lamp", "y": 270 },
+        "facing=north": { "model": "custom/lamp", "y": 0 }
+    }
+}

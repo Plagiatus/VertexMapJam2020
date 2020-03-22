@@ -8,9 +8,6 @@
 		{ "predicate": { "custom_model_data": 2 }, "model": "custom/ui/arrow2" },
 		{ "predicate": { "custom_model_data": 3 }, "model": "custom/ui/arrow3" },
 		{ "predicate": { "custom_model_data": 4 }, "model": "custom/ui/arrow4" },
-		{ "predicate": { "custom_model_data": 5 }, "model": "custom/ui/arrow5" },
-		{ "predicate": { "custom_model_data": 10 }, "model": "custom/ui/iron_ingot_faint" },
-		{ "predicate": { "custom_model_data": 11 }, "model": "custom/ui/gold_ingot_faint" },
-		{ "predicate": { "custom_model_data": 12 }, "model": "custom/ui/diamond_faint" }
+		{ "predicate": { "custom_model_data": 5 }, "model": "custom/ui/arrow5" }
     ]
 }

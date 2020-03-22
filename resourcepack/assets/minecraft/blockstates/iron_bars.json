@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "east=false,north=false,south=false,west=false": { "model": "block/tank/fuel0" },
+        "east=true,north=false,south=false,west=false": { "model": "block/tank/fuel1" },
+        "east=true,north=true,south=false,west=false": { "model": "block/tank/fuel2" },
+        "east=true,north=true,south=true,west=false": { "model": "block/tank/fuel3" },
+        "east=true,north=true,south=false,west=true": { "model": "block/tank/fuel4" },
+        "east=false,north=true,south=false,west=false": { "model": "block/tank/fuel5" },
+        "east=true,north=false,south=true,west=false": { "model": "block/tank/fuel6" },
+
+        "east=false,north=false,south=true,west=false": { "model": "block/tank/water0" },
+        "east=true,north=false,south=false,west=true": { "model": "block/tank/water1" },
+        "east=false,north=true,south=false,west=true": { "model": "block/tank/water2" },
+        "east=true,north=true,south=true,west=true": { "model": "block/tank/water3" },
+        "east=true,north=false,south=true,west=true": { "model": "block/tank/water4" },
+        "east=false,north=true,south=true,west=false": { "model": "block/tank/water5" },
+        "east=false,north=true,south=true,west=true": { "model": "block/tank/water6" }
+    }
+}
