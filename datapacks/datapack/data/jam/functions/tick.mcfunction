@@ -7,3 +7,4 @@ execute as @e[tag=meteor_center,tag=unchecked,limit=1] at @s run function jam:wo
 execute as @e[tag=meteor_center,tag=done,limit=1] at @s run function jam:worldgen/gen/meteor/prebuilt_cleanup
 execute as @e[tag=meteor] at @s run function jam:worldgen/gen/meteor/generate_one
 execute as @e[tag=ship] at @s run function jam:ship/tick
+execute as @e[type=item,tag=!checked] run function jam:misc/items
