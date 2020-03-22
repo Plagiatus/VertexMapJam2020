@@ -8,5 +8,5 @@ execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:iron_sword"}]} run 
 execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:stone_sword"}]} run replaceitem block ~ ~ ~ container.1 iron_sword
 execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:iron_shovel"}]} run replaceitem block ~ ~ ~ container.1 diamond_shovel
 execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:stone_shovel"}]} run replaceitem block ~ ~ ~ container.1 iron_shovel
-execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:golden_chestplate",tag:{level:2}}]} run replaceitem block ~ ~ ~ container.1 golden_chestplate{level:3,capacity:5000,oxygen:2000}
-execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:golden_chestplate",tag:{level:1}}]} run replaceitem block ~ ~ ~ container.1 golden_chestplate{level:2,capacity:1000,oxygen:300}
+execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:golden_chestplate",tag:{level:2}}]} run replaceitem block ~ ~ ~ container.1 golden_chestplate{level:3,capacity:5000,oxygen:2000,display:{Name:'{"text":"Enhanced","color":"gold","italic":false}'}}
+execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:golden_chestplate",tag:{level:1}}]} run replaceitem block ~ ~ ~ container.1 golden_chestplate{level:2,capacity:1000,oxygen:300,display:{Name:'{"text":"Fully Functional","italic":false}'}}
