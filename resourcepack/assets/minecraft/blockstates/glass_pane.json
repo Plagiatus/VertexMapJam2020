@@ -1,6 +1,6 @@
 {
     "variants": {
-        "east=false,north=false,south=false,west=false": { "model": "block/tank/oxygen0" },
+        "east=false,north=false,south=false,west=false": { "model": "block/tank/fuel0" },
         "east=true,north=false,south=false,west=false": { "model": "block/tank/oxygen1" },
         "east=true,north=true,south=false,west=false": { "model": "block/tank/oxygen2" },
         "east=true,north=true,south=true,west=false": { "model": "block/tank/oxygen3" },
@@ -8,7 +8,7 @@
         "east=false,north=true,south=false,west=false": { "model": "block/tank/oxygen5" },
         "east=true,north=false,south=true,west=false": { "model": "block/tank/oxygen6" },
 
-        "east=false,north=false,south=true,west=false": { "model": "block/tank/nitrogen0" },
+        "east=false,north=false,south=true,west=false": { "model": "block/tank/fuel0" },
         "east=true,north=false,south=false,west=true": { "model": "block/tank/nitrogen1" },
         "east=false,north=true,south=false,west=true": { "model": "block/tank/nitrogen2" },
         "east=true,north=true,south=true,west=true": { "model": "block/tank/nitrogen3" },
