@@ -35,5 +35,6 @@ scoreboard players set $9 const 9
 scoreboard players set $6 const 6
 scoreboard players set $10 const 10
 scoreboard players set $16 const 16
+scoreboard players set $60 const 60
 scoreboard players set $64 const 64
 scoreboard players set $160 const 160
