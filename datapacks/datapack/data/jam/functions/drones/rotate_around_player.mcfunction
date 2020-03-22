@@ -1,22 +1,35 @@
-scoreboard players set @s botOldRadius 0
-scoreboard players set @s botNewRadius 0
+scoreboard players set @s botSmallestR 20
 
+scoreboard players set @s botCurrentR 0
+execute rotated 45 ~ run function jam:drones/detect_wall
+scoreboard players operation @s botSmallestR < @s botCurrentR
 
-tag @s remove 2ndCast
-execute rotated ~10 ~ run function jam:drones/detect_wall
-scoreboard players operation @s botNewRadius = @s botOldRadius
-tag @s add 2ndCast
+scoreboard players set @s botCurrentR 0
+execute rotated 90 ~ run function jam:drones/detect_wall
+scoreboard players operation @s botSmallestR < @s botCurrentR
 
-scoreboard players operation @s botOldRadius = @s botSmoother
-scoreboard players operation @s botOldRadius *= §-1 const
+scoreboard players set @s botCurrentR 0
+execute rotated 135 ~ run function jam:drones/detect_wall
+scoreboard players operation @s botSmallestR < @s botCurrentR
+
+scoreboard players set @s botCurrentR 0
+execute rotated 180 ~ run function jam:drones/detect_wall
+scoreboard players operation @s botSmallestR < @s botCurrentR
+
+scoreboard players set @s botCurrentR 0
+execute rotated 225 ~ run function jam:drones/detect_wall
+scoreboard players operation @s botSmallestR < @s botCurrentR
+
+scoreboard players set @s botCurrentR 0
+execute rotated 270 ~ run function jam:drones/detect_wall
+scoreboard players operation @s botSmallestR < @s botCurrentR
+
+scoreboard players set @s botCurrentR 0
+execute rotated 315 ~ run function jam:drones/detect_wall
+scoreboard players operation @s botSmallestR < @s botCurrentR
+
+scoreboard players set @s botCurrentR 0
 function jam:drones/detect_wall
-
-scoreboard players operation @s botNewRadius -= @s botOldRadius
-
-execute if score @s botNewRadius matches ..-1 run scoreboard players remove @s botSmoother 1
-execute if score @s botNewRadius matches 0 if score @s botSmoother matches ..-1 run scoreboard players add @s botSmoother 1
-execute if score @s botNewRadius matches 0 if score @s botSmoother matches 1.. run scoreboard players remove @s botSmoother 1
-
-execute if score @s botNewRadius matches 1.. run scoreboard players add @s botSmoother 1
-
-#execute if block ^4 ^ ^ air positioned ^4 ^ ^ run tp @s ~ ~2 ~
+scoreboard players operation @s botSmallestR < @s botCurrentR
+scoreboard players remove @s botSmallestR 1
+execute if score @s botSmallestR matches ..4 positioned ^1 ^ ^ run tp @s ~ ~-0.5 ~

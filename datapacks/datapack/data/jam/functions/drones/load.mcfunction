@@ -1,3 +1,2 @@
-scoreboard objectives add botOldRadius dummy
-scoreboard objectives add botNewRadius dummy
-scoreboard objectives add botSmoother dummy
+scoreboard objectives add botSmallestR dummy
+scoreboard objectives add botCurrentR dummy
