@@ -1,0 +1,26 @@
+{
+    "rewards": {
+      "function": "jam:misc/has_totem"
+    },
+    "criteria": {
+      "has_meteors": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:totem_of_undying"
+            }
+          ]
+        }
+      }
+    },
+    "display":{
+        "icon":{
+            "item":"minecraft:totem_of_undying"
+        },
+        "title":{"translate":"item.minecraft.totem_of_undying"},
+        "description":{"text":"You've found the elusive totem! Your next death will not have any consqeunces."},
+        "hidden":true,
+        "frame":"challenge"
+    }
+  }

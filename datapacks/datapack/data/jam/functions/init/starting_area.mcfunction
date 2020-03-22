@@ -13,10 +13,7 @@ execute if score @s timer matches 20 run fill ~ ~ ~1 ~ ~2 ~1 barrier keep
 execute if score @s timer matches 20 run fill ~ ~ ~-1 ~ ~2 ~-1 barrier keep
 execute if score @s timer matches 20 run function jam:worldgen/summon_one
 
-execute if score @s timer matches 199 run replaceitem entity @s armor.head minecraft:feather{display:{Name:'{"text":"Space Helmet","italic":false}'},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
-execute if score @s timer matches 199 run replaceitem entity @s armor.chest minecraft:golden_chestplate{display:{Name:'{"text":"Broken Spacesuit","italic":false}',Lore:['{"text":"Fuel Capacity: 100","color":"green","italic":false}','{"text":"Oxygen Capacity: 60s","color":"blue","italic":false}','{"text":"Repair in the Upgrade Station","color":"dark_gray"}']},HideFlags:63,capacity:100,oxygen:60}
-execute if score @s timer matches 199 run replaceitem entity @s armor.legs minecraft:golden_leggings{display:{Name:'{"text":"Space Leggings","italic":false}'},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
-execute if score @s timer matches 199 run replaceitem entity @s armor.feet minecraft:golden_boots{display:{Name:'{"text":"Space Boots","italic":false}'},HideFlags:63,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
+execute if score @s timer matches 199 run function jam:misc/give_basic_items
 
 execute if score @s timer matches 200 run fill ~-1 ~ ~-1 ~1 ~2 ~ air replace barrier
 execute if score @s timer matches 200 run tp @s ~-1 ~4 ~ -90 25

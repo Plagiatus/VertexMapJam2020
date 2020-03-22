@@ -1,6 +1,7 @@
 scoreboard players set @s oxygen 60
 scoreboard players set @s oxygenMax 60
 scoreboard players set @s timer 0
+scoreboard players set @s totem 0
 
 execute store result score @s tmp run data get entity @s UUIDLeast 0.00000000023283064365386962890625
 scoreboard players operation #x tmp = @s tmp
@@ -25,3 +26,5 @@ gamemode creative @s
 tag @s add in_ship
 tag @s add init
 tag @s add loading
+
+gamerule keepInventory true

@@ -9,6 +9,10 @@ scoreboard objectives add const dummy
 scoreboard objectives add random dummy
 scoreboard objectives add counter dummy
 
+#deaths
+scoreboard objectives add totem dummy
+scoreboard objectives add deaths deathCount
+
 # Oxygen
 scoreboard objectives add oxygen dummy
 scoreboard objectives add oxygenMax dummy
