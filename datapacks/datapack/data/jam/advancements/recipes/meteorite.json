@@ -1,0 +1,22 @@
+{
+  "rewards": {
+    "recipes": [
+      "jam:meteorite"
+    ]
+  },
+  "criteria": {
+    "has_meteors": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:prismarine_crystals",
+            "count":{
+              "min":4
+            }
+          }
+        ]
+      }
+    }
+  }
+}
