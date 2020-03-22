@@ -1,0 +1,18 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "minecraft:icons/oxygen.png",
+			"ascent": 8,
+			"height": 16,
+			"chars": ["\uE101"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:icons/oxygen_empty.png",
+			"ascent": 8,
+			"height": 16,
+			"chars": ["\uE102"]
+		}
+	]
+}
