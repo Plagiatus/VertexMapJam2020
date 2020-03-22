@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:prismarine_shard"
+        },
+        {
+            "tag": "jam:bots"
+        },
+        {
+            "item": "minecraft:prismarine_shard"
+        },
+        {
+            "tag": "jam:bots"
+        }
+    ],
+    "result": {
+        "item": "minecraft:yellow_dye",
+        "count": 1
+    }
+}

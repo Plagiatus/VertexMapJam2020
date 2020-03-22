@@ -1,0 +1,19 @@
+{
+  "rewards": {
+    "recipes": [
+      "jam:robots/golden"
+    ]
+  },
+  "criteria": {
+    "has_meteors": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:prismarine_shard"
+          }
+        ]
+      }
+    }
+  }
+}

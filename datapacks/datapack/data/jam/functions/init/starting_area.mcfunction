@@ -21,8 +21,8 @@ execute if score @s timer matches 199 run replaceitem entity @s armor.feet minec
 execute if score @s timer matches 200 run fill ~-1 ~ ~-1 ~1 ~2 ~ air replace barrier
 execute if score @s timer matches 200 run tp @s ~-1 ~4 ~ -90 25
 execute if score @s timer matches 200 at @s run spawnpoint @s ~ ~ ~
-execute if score @s timer matches 200 run effect @s give saturation 10 10 true
-execute if score @s timer matches 200 run effect @s give instant_health 10 10 true
+execute if score @s timer matches 200 run effect give @s saturation 10 10 true
+execute if score @s timer matches 200 run effect give @s instant_health 10 10 true
 execute if score @s timer matches 200 run scoreboard players set @s jetpack_fuel 100
 
 execute if score @s timer matches 210 run tellraw @s ["exposition 1"]
