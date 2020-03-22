@@ -24,6 +24,7 @@ scoreboard objectives add hydrogen dummy
 scoreboard objectives add hydrogenMax dummy
 scoreboard objectives add water dummy
 scoreboard objectives add waterMax dummy
+scoreboard objectives add water_split dummy
 
 # constants
 scoreboard players set $-1 const -1

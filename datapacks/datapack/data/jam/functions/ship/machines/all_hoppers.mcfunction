@@ -1,3 +1,5 @@
+execute unless score @s duration = @s duration run scoreboard players set @s duration 6
+
 replaceitem block ~ ~ ~ container.1 minecraft:structure_void
 replaceitem block ~ ~ ~ container.2 minecraft:structure_void
 replaceitem block ~ ~ ~ container.3 minecraft:structure_void
