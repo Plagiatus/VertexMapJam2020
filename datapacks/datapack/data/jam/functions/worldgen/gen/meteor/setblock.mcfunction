@@ -6,5 +6,5 @@ execute if score @s tmp matches 40..44 run setblock ~ ~ ~ dirt
 execute if score @s tmp matches 45..59 run setblock ~ ~ ~ coarse_dirt
 execute if score @s tmp matches 60..64 run setblock ~ ~ ~ wet_sponge
 execute if score @s tmp matches 65..69 run setblock ~ ~ ~ iron_ore
-execute if score @s tmp matches 70..72 run setblock ~ ~ ~ gold_ore
-execute if score @s tmp matches 73..74 run setblock ~ ~ ~ diamond_ore
+execute if score @s tmp matches 70..72 run setblock ~ ~ ~ granite
+execute if score @s tmp matches 73..74 run setblock ~ ~ ~ cobblestone
