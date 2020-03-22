@@ -25,4 +25,5 @@ execute as @s[tag=door_sound] run playsound minecraft:entity.shulker.open master
 execute as @s[tag=door_sound] run playsound minecraft:entity.shulker_bullet.hurt master @a ~ ~ ~ 1 0
 tag @s remove door_sound
 
+execute positioned ~-1 ~ ~-5 as @a[dx=2,dy=3,dz=4,tag=!in_ship] run function jam:oxygen/refill
 execute positioned ~-1 ~ ~-5 run tag @a[dx=2,dy=3,dz=4] add in_ship

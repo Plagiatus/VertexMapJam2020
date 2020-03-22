@@ -4,3 +4,5 @@ scoreboard players operation @s counter = @s random
 scoreboard players operation @s counter %= $10 const
 
 function jam:worldgen/gen/meteor/generate_one
+
+kill @s

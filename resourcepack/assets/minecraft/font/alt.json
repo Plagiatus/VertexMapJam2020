@@ -1,0 +1,18 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/custom/black.png",
+			"ascent": 16,
+			"height": 16,
+			"chars": ["\uE101"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/custom/overlay.png",
+			"ascent": 16,
+			"height": 16,
+			"chars": ["\uE102"]
+		}
+	]
+}

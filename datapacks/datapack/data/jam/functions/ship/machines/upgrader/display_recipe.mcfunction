@@ -6,6 +6,8 @@ execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:stone_pickaxe"}]} r
 execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:iron_pickaxe"}]} run function jam:ship/machines/upgrader/recipes/iron
 execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:stone_sword"}]} run function jam:ship/machines/upgrader/recipes/stone
 execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:iron_sword"}]} run function jam:ship/machines/upgrader/recipes/iron
+execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:stone_shovel"}]} run function jam:ship/machines/upgrader/recipes/stone
+execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:iron_shovel"}]} run function jam:ship/machines/upgrader/recipes/iron
 execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:golden_chestplate",tag:{level:1}}]} run function jam:ship/machines/upgrader/recipes/jetpack_1
 execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:golden_chestplate",tag:{level:2}}]} run function jam:ship/machines/upgrader/recipes/jetpack_2
 

@@ -6,6 +6,6 @@ execute store result entity @s Pos[0] double 1 run scoreboard players operation 
 execute store result entity @s Pos[1] double 1 run scoreboard players operation #y tmp += $y tmp
 execute store result entity @s Pos[2] double 1 run scoreboard players operation #z tmp += $z tmp
 
-execute at @s run setblock ~ ~ ~ stone
+# execute at @s run setblock ~ ~ ~ stone
 
 tag @s remove needs_moving
