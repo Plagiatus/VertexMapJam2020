@@ -5,8 +5,7 @@ execute if score @s tmp matches ..-1 run scoreboard players operation @s tmp *= 
 scoreboard players operation #prebuilt tmp = @s tmp
 scoreboard players operation #prebuilt tmp %= $2 const
 
-# execute if score #prebuilt tmp matches 0 run 
-function jam:worldgen/gen/meteor/generate
-# execute unless score #prebuilt tmp matches 0 run function jam:worldgen/gen/meteor/prebuilt
+execute if score #prebuilt tmp matches 0 run function jam:worldgen/gen/meteor/generate
+execute unless score #prebuilt tmp matches 0 run function jam:worldgen/gen/meteor/prebuilt
 
 kill @s
