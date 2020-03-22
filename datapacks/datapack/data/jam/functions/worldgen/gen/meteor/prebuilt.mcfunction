@@ -35,4 +35,5 @@ execute if score #meteor tmp matches 24 run setblock ~ ~ ~ structure_block[mode=
 execute if score #meteor tmp matches 25 run setblock ~ ~ ~ structure_block[mode=load]{mode:"LOAD",name:"jam:meteor26",posX:-2,posY:-2,posZ:-2,integrity:0.95f}
 # execute if score #meteor tmp matches 26 run setblock ~ ~ ~ structure_block[mode=load]{mode:"LOAD",name:"jam:meteor27",posX:-2,posY:-2,posZ:-2,integrity:0.95f}
 
-setblock ~ ~1 ~ redstone_block
+setblock ~1 ~ ~ redstone_block
+tag @s add done
