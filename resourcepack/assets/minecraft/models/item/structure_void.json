@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "item/structure_void"
+        "layer0": "item/structure_voide"
     },
 	"overrides": [
 		{ "predicate": { "custom_model_data": 1 }, "model": "custom/ui/arrow1" },
