@@ -1,8 +1,8 @@
 execute unless score @s duration = @s duration run scoreboard players set @s duration 6
 
-replaceitem block ~ ~ ~ container.1 minecraft:structure_void
-replaceitem block ~ ~ ~ container.2 minecraft:structure_void
-replaceitem block ~ ~ ~ container.3 minecraft:structure_void
+replaceitem block ~ ~ ~ container.1 minecraft:structure_void{display:{Name:'{"text":" "}'},HideFlags:63}
+replaceitem block ~ ~ ~ container.2 minecraft:structure_void{display:{Name:'{"text":" "}'},HideFlags:63}
+replaceitem block ~ ~ ~ container.3 minecraft:structure_void{display:{Name:'{"text":" "}'},HideFlags:63}
 
 #check whether it's running
 tag @s add run
@@ -17,11 +17,11 @@ execute as @e[tag=run,tag=ore] run function jam:ship/machines/check/ore
 execute as @e[tag=run,tag=fuel] run function jam:ship/machines/check/fuel
 
 # enabled? 
-execute as @s[tag=run,scores={timer=5}] run replaceitem block ~ ~ ~ container.2 minecraft:structure_void{CustomModelData:1}
-execute as @s[tag=run,scores={timer=4}] run replaceitem block ~ ~ ~ container.2 minecraft:structure_void{CustomModelData:2}
-execute as @s[tag=run,scores={timer=3}] run replaceitem block ~ ~ ~ container.2 minecraft:structure_void{CustomModelData:3}
-execute as @s[tag=run,scores={timer=2}] run replaceitem block ~ ~ ~ container.2 minecraft:structure_void{CustomModelData:4}
-execute as @s[tag=run,scores={timer=1}] run replaceitem block ~ ~ ~ container.2 minecraft:structure_void{CustomModelData:5}
+execute as @s[tag=run,scores={timer=5}] run replaceitem block ~ ~ ~ container.2 minecraft:structure_void{CustomModelData:1,display:{Name:'{"text":" "}'},HideFlags:63}
+execute as @s[tag=run,scores={timer=4}] run replaceitem block ~ ~ ~ container.2 minecraft:structure_void{CustomModelData:2,display:{Name:'{"text":" "}'},HideFlags:63}
+execute as @s[tag=run,scores={timer=3}] run replaceitem block ~ ~ ~ container.2 minecraft:structure_void{CustomModelData:3,display:{Name:'{"text":" "}'},HideFlags:63}
+execute as @s[tag=run,scores={timer=2}] run replaceitem block ~ ~ ~ container.2 minecraft:structure_void{CustomModelData:4,display:{Name:'{"text":" "}'},HideFlags:63}
+execute as @s[tag=run,scores={timer=1}] run replaceitem block ~ ~ ~ container.2 minecraft:structure_void{CustomModelData:5,display:{Name:'{"text":" "}'},HideFlags:63}
 execute as @s[tag=run] run scoreboard players remove @s timer 1
 
 # if enabled, run machine specific crafting
