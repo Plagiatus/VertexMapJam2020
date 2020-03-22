@@ -8,6 +8,7 @@ execute as @e[type=area_effect_cloud,tag=chunk_marker,tag=!surrounded] at @s run
 
 # oxygen
 execute as @a[tag=!in_ship] run function jam:oxygen/decrease
+execute as @a[tag=in_ship] run function jam:oxygen/check_capacity
 
 # machines/ship
 function jam:ship/machines/shared
