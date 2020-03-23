@@ -11,6 +11,7 @@ scoreboard players operation #z tmp /= $32768 const
 scoreboard players operation #z tmp %= $32768 const
 
 setblock ~ 255 ~ minecraft:end_gateway{ExactTeleport:1b,ExitPortal:{X:0,Y:128,Z:0},Age:1000}
+setblock ~ 254 ~ bedrock
 execute store result block ~ 255 ~ ExitPortal.X int 1 run scoreboard players get #x tmp
 execute store result block ~ 255 ~ ExitPortal.Z int 1 run scoreboard players get #z tmp
 tp @s ~ 255 ~

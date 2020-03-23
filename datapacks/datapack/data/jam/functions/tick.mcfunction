@@ -10,3 +10,4 @@ execute as @e[tag=meteor] at @s run function jam:worldgen/gen/meteor/generate_on
 execute as @e[tag=ship] at @s run function jam:ship/tick
 execute as @e[type=item,tag=!checked] run function jam:misc/items
 execute as @a[scores={deaths=1..}] run function jam:misc/death
+execute as @a run function jam:misc/end_stone
