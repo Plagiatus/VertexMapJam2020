@@ -3,6 +3,13 @@ function jam:jetpack/load
 function jam:drones/load
 schedule function jam:second 1s replace
 
+# gamerules
+gamerule keepInventory true
+gamerule fallDamage false 
+gamerule doWeatherCycle false
+gamerule doDaylightCycle false
+time set midnight
+
 # general
 scoreboard objectives add tmp dummy
 scoreboard objectives add const dummy
