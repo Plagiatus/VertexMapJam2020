@@ -2,10 +2,9 @@
 # 0 = idle
 # 1 = attack
 # 2 = go to item
-#
+# 3 = mine
 #
 # 10 = return to owner
-
 
 execute if entity @s[tag=orange_bot] run function jam:drones/bodyguard/main
 execute if entity @s[tag=green_bot] run function jam:drones/collector/main
