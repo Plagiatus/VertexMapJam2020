@@ -1,27 +1,22 @@
 {
   "replace": false,
   "values": [
+    "#jam:undead",
   	"#minecraft:raiders",
-  	"#minecraft:skeletons",
-  	"minecraft:zombie",
-  	"minecraft:spider",
-  	"minecraft:creeper",
   	"minecraft:blaze",
-  	"minecraft:ghast",
-  	"minecraft:zombie_pigman",
-  	"minecraft:rabbit",
   	"minecraft:cave_spider",
-  	"minecraft:enderman",
-  	"minecraft:guardian",
+  	"minecraft:creeper",
   	"minecraft:elder_guardian",
+  	"minecraft:enderman",
   	"minecraft:endermite",
-  	"minecraft:phantom",
-  	"minecraft:silverfish",
-  	"minecraft:shulker",
-  	"minecraft:slime",
+  	"minecraft:ghast",
+  	"minecraft:guardian",
   	"minecraft:magma_cube",
-  	"minecraft:husk",
-  	"minecraft:vex",
-  	"minecraft:zombie_villager"
+  	"minecraft:rabbit",
+  	"minecraft:spider",
+  	"minecraft:shulker",
+  	"minecraft:silverfish",
+  	"minecraft:slime",
+  	"minecraft:vex"
   ]
 }

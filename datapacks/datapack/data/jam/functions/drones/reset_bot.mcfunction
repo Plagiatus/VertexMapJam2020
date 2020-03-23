@@ -1,5 +1,10 @@
 scoreboard players set @s botMode 0
 scoreboard players set @s chargeShot 0
+scoreboard players set @s botXPos 0
+scoreboard players set @s botYPos 0
+scoreboard players set @s botZPos 0
+tag @s remove botGoal
+tag @s remove botFinished
 tag @s remove returnToOwner
 
 scoreboard players set #number tmp 0
