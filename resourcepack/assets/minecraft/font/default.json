@@ -13,6 +13,97 @@
 			"ascent": -3,
 			"height": 16,
 			"chars": ["\uE102"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:icons/bot_modulator.png",
+			"ascent": -3,
+			"height": 64,
+			"chars": ["\uE103"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:icons/food_station.png",
+			"ascent": -3,
+			"height": 64,
+			"chars": ["\uE104"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:icons/fuel_generator.png",
+			"ascent": -3,
+			"height": 64,
+			"chars": ["\uE105"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:icons/fuel_tank.png",
+			"ascent": -3,
+			"height": 64,
+			"chars": ["\uE106"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:icons/water_tank.png",
+			"ascent": -3,
+			"height": 64,
+			"chars": ["\uE107"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:icons/oxygen_tank.png",
+			"ascent": -3,
+			"height": 64,
+			"chars": ["\uE108"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:icons/nitrogen_tank.png",
+			"ascent": -3,
+			"height": 64,
+			"chars": ["\uE109"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:icons/jetpack_charger.png",
+			"ascent": -3,
+			"height": 64,
+			"chars": ["\uE110"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:icons/ore_purifier.png",
+			"ascent": -3,
+			"height": 64,
+			"chars": ["\uE111"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:icons/upgrade_station.png",
+			"ascent": -3,
+			"height": 64,
+			"chars": ["\uE112"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:icons/water_extractor.png",
+			"ascent": -3,
+			"height": 64,
+			"chars": ["\uE113"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:icons/water_splitter.png",
+			"ascent": -3,
+			"height": 64,
+			"chars": ["\uE114"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:item/light_blue_dye.png",
+			"ascent": -3,
+			"height": 64,
+			"chars": ["\uE115"]
 		}
 	]
 }
