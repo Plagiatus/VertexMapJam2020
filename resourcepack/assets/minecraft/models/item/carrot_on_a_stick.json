@@ -1,6 +1,10 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/carrot_on_a_stick"
-    }
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/bot1"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1}, "model": "item/bot1" },
+		{ "predicate": { "custom_model_data": 2}, "model": "item/bot2" }
+	]
 }
