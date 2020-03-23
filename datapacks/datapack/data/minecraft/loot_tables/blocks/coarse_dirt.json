@@ -6,7 +6,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:coarse_dirt"
+          "name": "minecraft:coarse_dirt",
+          "functions":[
+            {
+              "function":"set_nbt",
+              "tag":"{CanPlaceOn:[\"minecraft:end_stone\",\"minecraft:stone\",\"minecraft:andesite\",\"minecraft:diorite\",\"minecraft:dirt\", \"minecraft:coarse_dirt\",\"minecraft:wet_sponge\",\"minecraft:iron_ore\",\"minecraft:obsidian\",\"minecraft:granite\",\"minecraft:cobblestone\"],HideFlags:63}"
+            }
+          ]
         }
       ],
       "conditions": [

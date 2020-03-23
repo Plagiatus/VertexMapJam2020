@@ -1,10 +1,10 @@
 # initialize if no scores are set yet
-execute unless score @s water = @s water run scoreboard players set @s water 200
-execute unless score @s waterMax = @s waterMax run scoreboard players set @s waterMax 400
+execute unless score @s water = @s water run scoreboard players set @s water 500
+execute unless score @s waterMax = @s waterMax run scoreboard players set @s waterMax 4000
 execute unless score @s hydrogen = @s hydrogen run scoreboard players set @s hydrogen 0
-execute unless score @s hydrogenMax = @s hydrogenMax run scoreboard players set @s hydrogenMax 1200
-execute unless score @s oxygen = @s oxygen run scoreboard players set @s oxygen 300
-execute unless score @s oxygenMax = @s oxygenMax run scoreboard players set @s oxygenMax 600
+execute unless score @s hydrogenMax = @s hydrogenMax run scoreboard players set @s hydrogenMax 12000
+execute unless score @s oxygen = @s oxygen run scoreboard players set @s oxygen 1000
+execute unless score @s oxygenMax = @s oxygenMax run scoreboard players set @s oxygenMax 6000
 execute unless score @s fuel = @s fuel run scoreboard players set @s fuel 5000
 execute unless score @s fuelMax = @s fuelMax run scoreboard players set @s fuelMax 50000
 
