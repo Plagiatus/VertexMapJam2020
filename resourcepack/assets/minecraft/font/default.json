@@ -3,14 +3,14 @@
 		{
 			"type": "bitmap",
 			"file": "minecraft:icons/oxygen.png",
-			"ascent": -3,
+			"ascent": -13,
 			"height": 16,
 			"chars": ["\uE101"]
 		},
 		{
 			"type": "bitmap",
 			"file": "minecraft:icons/oxygen_empty.png",
-			"ascent": -3,
+			"ascent": -13,
 			"height": 16,
 			"chars": ["\uE102"]
 		},
