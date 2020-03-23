@@ -9,7 +9,7 @@
   "item.minecraft.spider_eye": "Raw Alien Meat",
   "item.minecraft.cookie": "Space Cookie",
   "item.minecraft.totem_of_undying": "Tesseract Totem",
-  "item.minecraft.compass": "Home Locator",
+  "item.minecraft.dead_horn_coral": "Space Plant",
   "block.minecraft.end_stone": "Meteorite Block",
   "item.minecraft.scute": "§bRobot Cell",
   "item.minecraft.light_blue_dye": "§bLight Bot",
@@ -36,8 +36,13 @@
   "block.minecraft.sea_lantern": "Factory Light",
   "block.minecraft.polished_diorite": "Steel",
   "block.minecraft.wet_sponge": "Wet Soil",
+  "block.minecraft.granite": "Uranium",
+  "block.minecraft.gold_ingot": "Uranium Ingot",
   "block.minecraft.dirt": "Soil",
   "block.minecraft.coarse_dirt": "Coarse Soil",
+  "block.minecraft.end_stone_bricks": "Obsidian_Bricks",
+  "block.minecraft.diorite": "Stone",
+  "block.minecraft.andesite": "Stone",
   "container.stonecutter": "Bot Modulator",
   "container.barrel": "Storage Box"
 }
